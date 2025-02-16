@@ -1,0 +1,22 @@
+# Application configuration
+language: en  # Application language (can be en or ru)
+
+# API configuration
+api:
+  anthropic_key: ""  # API key
+
+# Custom prompt configuration
+custom_prompt:
+  enabled: false  # Set to true to use custom prompt instead of default
+  content: ""     # Custom prompt content if enabled
+
+# User context configuration
+user_context:
+  enabled: false  # Set to true to include user context
+  description: "" # Description of the user/context to be included in prompts
+
+# Model configuration
+model:
+  name: "claude-3-5-sonnet-20241022"
+  temperature: 1
+  max_tokens: 8192
