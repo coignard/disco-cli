@@ -64,7 +64,7 @@ class DialogRenderer:
             style="bold white"
         )
         formatted_text.append(" - ", style="white")
-        formatted_text.append(f"«{text}»", style="white")
+        formatted_text.append(f"{text}", style="white")
         self.console.print(formatted_text)
 
         self.last_lines = 0
